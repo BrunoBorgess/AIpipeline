@@ -5,7 +5,7 @@ from pydantic import ValidationError
 from database import salvar_no_postgres
 
 def main():
-    st.title("Sistema de CRM e Vendas da ZapFlow - Frontend Simples")
+    st.title("Sistema de CRM e Vendas da ZapFlow - Frontend Simples Teste")
     email = st.text_input("Campo de texto para inserção do email do vendedor")
     data = st.date_input("Data da compra", datetime.now()) # Data padrão 
     hora = st.time_input("Hora da compra", value=time(9,0)) # Horário padrão: 09:00
