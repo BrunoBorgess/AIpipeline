@@ -1,7 +1,7 @@
 import streamlit as st
 from  contrato import Vendas
 from datetime import datetime, time
-from pydantic import ValidationError 
+from pydantic import ValidationError
 from database import salvar_no_postgres
 
 def main():
